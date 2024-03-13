@@ -1,0 +1,23 @@
+{
+  "name": "instabook",
+  "version": "1.0.0",
+  "description": "instabook is a instagram clone with some extra features",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "instabook"
+  ],
+  "author": "Rajeev Bhardwaj",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  }
+}
